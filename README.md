@@ -1,2 +1,2 @@
-# AntiFortniteBot
-discord bot that automatically bans ayone playing fortnite
+# AntiGDBot
+discord bot that automatically bans ayone playing GD lol
