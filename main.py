@@ -9,9 +9,9 @@ async def on_ready():
 				for x in member.activities:
 					if type(x) == discord.Game:
 						print(x)
-						if str(x) == "Fortnite":
+						if str(x) == "Geometry Dash":
 							a = await client.get_user_info(member.id)
-							await a.send(f'You have been banned from `{guild}`\nReason: playing fortnite')
+							await a.send(f'You have been banned from `{guild}`\nReason: playing GD')
 							await guild.ban(member)
 		await asyncio.sleep(5)
 client.run("TOKEN_HHERE")
